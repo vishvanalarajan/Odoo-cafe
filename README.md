@@ -11,6 +11,12 @@ A production-grade Restaurant POS system with Admin, Cashier, Kitchen Staff, and
 | Database | PostgreSQL, Prisma ORM |
 | Deployment | Frontend → Vercel, Backend + DB → Railway |
 
+## Repository Layout
+
+- `frontend/` contains the Next.js app for POS, admin, kitchen, and customer displays.
+- `backend/` contains the NestJS API, Prisma schema, and realtime socket gateway.
+- `start.ps1` provides a convenience startup script for the full stack workspace.
+
 ## Features
 
 - **Auth** — JWT + Refresh Tokens, bcrypt, RBAC (Admin/Cashier/Kitchen)
